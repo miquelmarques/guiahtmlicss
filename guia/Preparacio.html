@@ -1,0 +1,2956 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Aprovat-HTML CSS</title>
+    <link rel="icon" type="image/png" href="images/logo.png" alt="logo">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="titolintro">
+        <h1 class="titol">Preparació pel l'examen de HTML</h1>
+        <p class=" intro">Benvingut a la guia definitiva per aprendre HTML! Aquí descobriràs el fascinant món del
+            desenvolupament web,
+            on
+            les pàgines prenen vida a través de línies de codi. Aquesta plataforma està dissenyada per a principiants i
+            experts per igual, oferint-te recursos, tutorials interactius i exemples pràctics que et permetran dominar
+            HTML
+            des de zero. Ja sigui que vulguis crear la teva pròpia pàgina web, millorar les teves habilitats tècniques o
+            simplement explorar una nova afició, ets al lloc indicat. Comencem a construir junts el teu futur digital!
+        </p>
+    </div>
+    <div class="fonsmenu">
+
+    </div>
+    <div class="dist">
+        <div class="menu">
+            <h3 class="menutit">Continguts</h3>
+            <ul>
+                <li><a href="#1">Primers Pasos HTML</a></li>
+                <li><a href="#2">Creació de la meva primera Web</a></li>
+                <li><a href="#3">Com connectar-ho amb el css</a></li>
+                <li><a href="#4">CSS estils</a></li>
+                <li><a href="#7">Formularis</a></li>
+                <li> <a href="#8">CSS estils (2)</a></li>
+                <li><a href="#6">Arxiu d'exemple</a></li>
+                <li><a href="#5">NETGRAFIA</a></li>
+
+
+
+            </ul>
+        </div>
+        <div class="ajuda">
+            <div class="h2"> Més informació:</div>
+            <div class="contacte">
+                Contacteu per via: <br>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=VpCqJKjFtcRSkXvbvQxZvQprvJzHsNLNXJVsszCsSGTNQRcLVXsJvxgHXWBCqDkbPPnHfbG"
+                    class="email"><img src="images/email.png" alt="e-mail"
+                        class="botons">miquel.marques@mataro.epiaedu.cat</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="1" class="caixesimparells">
+        <h2 class="titolsapartats">Primers pasos HTML</h2>
+        <div>
+            <p class="subtitol">Crear un arxiu HTML</p>
+            <p class="text">El primer que has de fer es crear un document en blanc i modificar el seu format per el de
+                .html</p>
+            <img src="images/Format.png" alt="Editar nom i canviar format per .html" class="imatgeformat">
+        </div>
+        <div>
+            <p class="subtitol">Establir configuració del arxiu</p>
+            <p class="text"> En aquest punt hem de tenir sempre en l'arxiu el seguent codi:</p>
+            <div>
+                <img src="images/Primerpasos CONFarxiu.png" alt="Capturadelcodi">
+            </div>
+        </div>
+        <div>
+            <p class="subtitol">Estructuracio de arxius i directoris</p>
+            <p class="text">En una pagina web normal té una serie de arxius i directoris que fan que la web tingui
+                imatges que sigui
+                més visual i fins i tot tingui un petit o gran codi per executar algun element de la pagina.
+                i per tenir tot aixo cal seguir un ordre o més ben dit per funcionar més optimament tenir un ordre. El
+                que sempre es recomana es tenir l'arxiu HTML en la carpeta principal de la pagina, les fotos i videos en
+                una subcarpeta, i l'arxiu css en una altra subcarpeta.
+                L'estructuració que recomano fer servir es la següent.
+            </p>
+            <img src="images/tree.png" alt="tree /f powershell">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="caixesparells">
+        <h2 id="2" class="titolsapartats">Creació de la meva Primera Web</h2>
+        <p class="text"> Un cop tenim la estructura web feta el que farem es posar-li el codi per poder mostrar-lo en el
+            navegador i
+            per tant necessites que saber el codi per aixó en auqets apratats et poso el nom perquè serveix i una
+            captura de com funciona</p>
+        <div>
+            <p class="subtitol">Elements En linia i elements en bloc </p>
+            <p class="text">Els elements en bloc son aquells que començen de una linai i ocupent tot el ample de la
+                linea independenmnet de l'espai que ocupi el bloc</p>
+            <p class="text">En canvi els elements en linia son aquells que s'ha adapten al espai que ocupen o que tu els
+                marques</p>
+            <p class="text"> En HTML existeixen el &lt;div> com ha bloc i el &lt;span> com en linia</p>
+            <div class="flexcodi">
+                <div class="codi"><img src="images/divspan.png" alt="div/span" class=""></div>
+                <div class="result">
+                    <h3>RESULTAT</h3>
+                    element en linia1 element en linia2<br>
+                    element en bloc<br>
+                    element en linia3 element en linia4<br>
+
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="subtitol"> El text en HTML</p>
+            <table class="taula">
+                <tr>
+                    <td class="coltitol">Codi</td>
+                    <td class="coltitol">Resultat</td>
+                    <td class="coltitol"> Escrit</td>
+                </tr>
+                <tr>
+                    <td class="coltitol">h1</td>
+                    <td>
+                        <h1>Aixo es h1</h1>
+                    </td>
+                    <td class="codi"><code>&lt;h1> Aixo es h1 &lt;/h1></code></td>
+                </tr>
+                <tr>
+                    <td class="coltitol">h2</td>
+                    <td>Això és h2</td>
+                    <td class="codi"><code> &lt;h2>Aixo és h2 &lt;h2></code></td>
+                </tr>
+                <tr>
+                    <td class="coltitol">
+                        Parragraf
+                    </td>
+                    <td>
+                        <p>aixo es un paragraf</p>
+                        <p>Aixo es un altre</p>
+                    </td>
+                    <td class="codi"><code>&lt;p>aixo es un paragraf&lt;p> <br>
+                        &lt;p>Aixo es un altre&lt;p></code></td>
+                </tr>
+                <tr>
+                    <td class="coltitol">Salt de linia</td>
+                    <td>Hola <br> Adeu</td>
+                    <td class="codi"><code>Hola &lt;br> Adeu</code></td>
+                </tr>
+                <tr>
+                    <td class="coltitol">Mostrar tal com s'escriu</td>
+                    <td>
+                        <pre>              aixo es una tabluacio          
+I aixo un sal de pagina
+                    </pre>
+                    </td>
+                    <td class="codi">
+                        <pre>&lt;pre>        aixo es una tabluacio
+                        I aixo un sal de pagina&lt;/pre></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="coltitol">text citat d'una altra font</td>
+                    <td>
+                        <blockquote cite="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1">Creative
+                            Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                            This license requires that reusers give credit to the creator. It allows reusers to
+                            distribute, remix, adapt, and build upon the material in any medium or format, for
+                            noncommercial purposes only. If others modify or adapt the material, they must license the
+                            modified material under identical terms.</blockquote>
+                    </td>
+                    <td class="codi">&lt;blockquote
+                        cite="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"> Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International
+                        This license requires that reusers give credit to the creator. It allows reusers to
+                        distribute, remix, adapt, and build upon the material in any medium or format, for
+                        noncommercial purposes only. If others modify or adapt the material, they must license the
+                        modified material under identical terms.&lt;/blockquote></td>
+                </tr>
+                <tr>
+                    <td class="coltitol">Mostrar el text em format codi</td>
+                    <td><code>sudo apt install</code></td>
+                    <td class="codi"><code>&lt;code>sudo apt install&lt;code></code></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p class="subtitol">Els enllaços en HTML</p>
+            <p class="text">En HTML els enllaços permeten moures més facilment des de una pagina web o moures dese de
+                una pagina web
+                a una d'altra. I un enlaç en HTML pot estar format per una imatge, text o imatge i text.</p>
+            <p class="text">Per fer un enllaç es fa servir el &lt;a>.</p>
+            <h3>Enllaç amb text</h3>
+            <div class="flexcodi">
+                <div class="codi"><code>&lt;a href "https://www.google.com"> GOOGLE &lt;/a></code></div>
+                <div class="result">
+                    <h3> Resultat</h3>
+                    <p><a href="https://www.google.com">GOOGLE</a></p>
+                </div>
+            </div>
+            <h3>Enllaç amb imatge</h3>
+            <div class="flexcodi">
+                <div class="codi">
+                    <code>&lt;a href "https://www.google.com"> &lt;img src="images/Google.png" alt="google.com"> &lt;/a></code>
+                </div>
+                <div class="result">
+                    <h3> Resultat</h3>
+                    <p><a href="https://www.google.com"><img src="images/Google.png" alt="google.com"
+                                class="botonsresult"></a></p>
+                </div>
+            </div>
+            <h3>Enllaç amb text i imatge</h3>
+            <div class="flexcodi">
+                <div class="codi">
+                    <code>&lt;a href "https://www.google.com">&lt;img src="images/Google.png" alt="google.com"> GOOGLE &lt;/a></code>
+                </div>
+                <div class="result">
+                    <h3> Resultat</h3>
+                    <p><a href="https://www.google.com"><img src="images/Google.png" alt="google.com"
+                                class="botonsresult">GOOGLE</a></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="subtitol">llistes en HTML</p>
+            <p class="text">Les llistes en HTML poden ser de dos tipus ordenades o no ordenada. La ordenada es la
+                classica llista que
+                segueix un ordre com 1,2,3,4... o a,b,c,d... mentre que les llistes no ordenades son aquelles que tenen
+                un
+                punt, un guiò o el que sigui.</p>
+            <p class="text"> I per fer una llista el que primer has de posar es el següent:
+                <br><span class="verde">&lt;ul></span>: llista no ordenada <br><span class="verde">&lt;ol></span>:
+                llista ordenada
+            </p>
+            <div class="flexcodi">
+                <div class="codi">
+                    <p class="text">Llistes ordenades</p>
+                    <code>&lt;ol><br>
+                    &lt;li>Introducció&lt;/li> <br>
+                    &lt;li>Punt 1&lt;/li> <br>
+                    &lt;li>Punt 2&lt;/li> <br>
+                    &lt;li>Conclusió&lt;/li> <br>
+                    &lt;/ol>                         
+                </code>
+                </div>
+                <div class="result">
+                    <h3>Resultat</h3>
+                    <ol>
+                        <li>Introducció</li>
+                        <li>Punt 1</li>
+                        <li>Punt 2</li>
+                        <li>Conclusió</li>
+                    </ol>
+                </div>
+            </div>
+            <br>
+            <div class="flexcodi">
+                <div class="codi">
+                    <p class="text">Llista no ordenada</p>
+                    <code>&lt;ul><br>
+                        &lt;li>Introducció&lt;/li> <br>
+                        &lt;li>Punt 1&lt;/li> <br>
+                        &lt;li>Punt 2&lt;/li> <br>
+                        &lt;li>Conclusió&lt;/li> <br>
+                        &lt;/ul>         
+                    </code>
+                </div>
+                <div class="result">
+                    <h3>Resultat</h3>
+                    <ul>
+                        <li>Introducció</li>
+                        <li>Punt 1</li>
+                        <li>Punt 2</li>
+                        <li>Conclusió</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="subtitol">IMATGES en HTML</p>
+            <p class="text">Introduir una imatge a una web és tan fàcil com introduir text. Els formats d'imatge
+                recomanats per
+                utilitzar a les pàgines webs són PNG, JPG, SVG i GIF. <br>
+                l'etiqueta per poder afegir una imatge es <span class="verde">&lt;img></span></p>
+            <div class="flexcodi">
+                <div class="codi"><br>&lt;img src="images/fons.jpg" alt="text alternatiu"></div>
+                <div class="result">
+                    <h3>Resultat</h3> <br>
+                    <img src="images/fons.jpg" alt="textalternatiu" class="botonsresultat">
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="subtitol">Taules en HTML</p>
+            <p class="text">Les taules presenten informacicó organitzada en files i columnes. Per crear una taula
+                necessitem 4 etiquetes de base:</p>
+            <ul class="text">
+                <li><span class="verde">&lt;table></span>: per crear la taula</li>
+                <li><span class="verde">&lt;tr></span>: per definir les files</li>
+                <li><span class="verde">&lt;td></span>: per definir les cel·les</li>
+                <li><span class="verde">&lt;th></span> : per definir les cel·les que faran de capcalera</li>
+                <li><span class="verde">&lt;td colspan="{valor}"></span>: per poder crear cel·les que ocupin més de una
+                    columna</li>
+                <li><span class="verde">&lt;td rowspan="{valor}"></span>: per poder crear cel·les que ocupin més de una
+                    fila</li>
+            </ul>
+            <p class="text">Exemple de taula:</p>
+            <div class="flexcodi">
+                <div class="codi"><code>
+                    &lt;table> <br>
+                       &lt;tr> <br>
+                         &lt;th> TEXT &lt;/th> <br>
+                         &lt;th> PREU &lt;/th> <br>
+                         &lt;th> DESCOMPTE &lt;/th> <br>
+                       &lt;/tr> <br>
+                       &lt;tr> <br>
+                         &lt;td> Ous &lt;/td> <br>
+                         &lt;td> 12 euros &lt;/td> <br>
+                         &lt;td> 20% &lt;/td> <br>
+                       &lt;/tr> <br>
+                       &lt;tr> <br>
+                         &lt;td rowspan="2"> Pollastre &lt;/td> <br>
+                         &lt;td> 17 euros &lt;/td> <br>
+                         &lt;td> 30% &lt;/td> <br>
+                       &lt;/tr> <br>
+                       &lt;tr> <br>
+                         &lt;td colspan="2"> 0 euros (Regal) &lt;/td> <br>
+                         &lt;/td> <br>
+                       &lt;/tr> <br>
+                    &lt;/table>
+                </code></div>
+                <div class="result">
+                    <table>
+                        <tr>
+                            <th> TEXT </th>
+                            <th> PREU </th>
+                            <th> DESCOMPTE </th>
+                        </tr>
+                        <tr>
+                            <td> Ous </td>
+                            <td> 12 euros </td>
+                            <td> 20% </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2"> Pollastre </td>
+                            <td> 17 euros </td>
+                            <td> 30% </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> 0 euros (Regal) </td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <div class="caixesimparells">
+        <h2 id="3" class="titolsapartats">Com connectar-ho amb CSS</h2>
+        <p class="text">Existeixen 3 maneres d’associar un full d’estil a un document HTML:</p>
+        <ul class="text menu">
+            <li><a href="#local">Aplicar de forma local</a></li>
+            <li><a href="#interns">Fulls d'estil interns</a></li>
+            <li><a href="#Externs"> Fulls d'estil externs</a></li>
+        </ul>
+        <div id="local">
+            <p class="subtitol">Aplicar els estil de forma local</p>
+            <p class="text">Podem aplicar els estils de CCS directament a un element HTML incloent el atribut style a la
+                declaració
+                de l'element</p>
+            <div class="flexcodi">
+                <div class="codi">
+                    <code>&lt;p style="color:blue; background-color:red;"> <br> Estil en forma local &lt;/p></code>
+                </div>
+                <div class="result">
+                    <p style="color:blue; background-color:red;"> <br> Estil en forma local </p>
+                </div>
+            </div>
+        </div>
+        <div class="text" id="interns">
+            <p class="subtitol">Fulls d'estils interns</p>
+            <p>Entenem per fulls d'estils interns com un apartat en el fitxer HTML destinat ha fer servir CSS.
+                Normalment es troba en aquest format.</p>
+        </div>
+
+        <div class="flexcodi">
+            <div class="codi"><code>
+        &lt;style type="text/css"> <br>
+         .total{color:red; font-size:40pt;} <br>
+        &lt;/style> <br>
+         &lt;p class="total">9000€&lt;/p> <br>
+        </code></div>
+            <div class="result">
+                <style type="text/css">
+                    .total {
+                        color: red;
+                        font-size: 40pt;
+                    }
+                </style>
+                <p class="total">9000€</p>
+            </div>
+        </div>
+        <br>
+        <div class="AVIS">AVIS <br> En aquest punt els exemples seran vist mitjançant la web de Replit descarregeu-ho
+            per tenir-ho <br>
+            link:<a
+                href="https://replit.com/join/avnxjnwnvx-miquelmb11">https://replit.com/join/avnxjnwnvx-miquelmb11</a>
+        </div>
+        <div class="text">
+            Per fer servir el css de forma externa el que haurem de fer es fer servir un arxiu de css en la carpeta de
+            css que vaig mostra en el exemple i posar el següent en el apartat de head:
+            <br>&lt;link rel="stylesheet" type="text/css" href="css/estilos.css">
+            <br>
+            <br>Feu click <a href="https://replit.com/join/avnxjnwnvx-miquelmb11">aquí</a> per veure el resultat
+        </div>
+        <div class="text">Regles de l'estil</div>
+        <p class="text">Les regles per aplicar un estil css estan compostes per dos de principals:</p>
+        <ul class="text">
+            <li>Selector: Indica als elements als quals s'aplica l'estil</li>
+            <li>Declaració: es l'apartat on es dona les propietats a un element per posar-li l'estil.</li>
+
+        </ul>
+        <p class="text">Al final han de tenir més o menys aquesta esritura</p>
+        <img src="images/Estructura_estil.png" alt="estructura_Estil">
+        <div class="text">
+            <p>Tipus de selectors</p>
+            <p>Els tipus de selector per fer referncia a un element o varis són els següents:</p>
+            <ul>
+                <li>Mitjançant un selector de HTML: En aquest casos es poden fer servir pels elements com &lt;p>, &span>
+                    i el td per poder dir que tots els paragrafs els text seleccionat o les casselles tenen aquest
+                    estil.
+                </li>
+                <li>Indentificadors: Els elements en HTML es defineixen amb la propietat de (id) que significa que els
+                    diferencia de la resta per tant solament es pot fer servir una vegada. <br>
+                    I en el CSS es fan referencia amb aqueta estructura <span class="verde">#id_posat</span>
+                </li>
+                <li>Classes: Son elements en HTMLs que es defineixen amb la propietat (class) que poden tenir-ho més
+                    d'un element i que es poden posar a qualsevol element. <br>
+                    I per fer referencia a ells en el CSS secriu <span class="verde">.classe_posat</span>
+                </li>
+                <li>Pseudo classes: Amb les pseudo classes podem definir diferents estils en un mateix element
+                    S’aplicarà un estil o un altre en funció dels
+                    esdeveniments provocats per l’usuari o de l'estat en el que es trobi l'element. <br>
+                    I la manera de fer-ho en el CSS és la següent: <span class="verde">selector:pseudo-classe</span>
+                </li>
+                <li>
+                    Pseudo-elements:S’aplicarà un estil o un altre en funció dels esdeveniments provocats per l’usuari o
+                    de l'estat en el que es trobi l'element.
+                    En CSS s'escriu de la següent forma: <span class="verde">selector::pseudo-element</span>
+                </li>
+            </ul>
+            <p>Per veure els exemples<a href="https://replit.com/join/avnxjnwnvx-miquelmb11">aquí</a> i el nom de
+                l'arxiu ha obrir es regles_de_estil.hmtl i regles_de_estil.css</p>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <div class="caixesparells" id="4">
+        <p class="titolsapartats">ESTILS CSS</p>
+        <p class="subtitol"> Familia Font</p>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Perquè serveix</th>
+                <th>valors</th>
+                <th>Exemple</th>
+            </tr>
+            <tr>
+                <td>font-family</td>
+                <td>Serveix per posar un estil de lletra</td>
+                <td><code>font-family: Arial;</code></td>
+                <td id="f-f">Soc lletra arial</td>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>Serveix per posar un tamany a la lletra</td>
+                <td><code>font-size: 14pt;</code></td>
+                <td id="f-s">Soc tamany 14pt</td>
+            </tr>
+            <tr>
+                <td>font-style</td>
+                <td>Serveix per definir el text en cursiva</td>
+                <td><code>font-style: italic;</code></td>
+                <td id="f-s">cursiva</td>
+            </tr>
+            <tr>
+                <td>font-weight</td>
+                <td>Serveix per posar la gruixudesa</td>
+                <td><code>font-weight: bold;</code></td>
+                <td id="f-w">negreta</td>
+            </tr>
+            <tr>
+                <td>font-variant</td>
+                <td>Serveix per posar que es mostri el text en majuscules de diferents tamanys.</td>
+                <td><code>font-variant: small-caps;</code></td>
+                <td id="f-v">Jaume I, El Conquistador</td>
+            </tr>
+            <tr>
+                <td>font</td>
+                <td>Serveix per posar tot l'anterior</td>
+                <td><code>font: Arial 12pt bold italic small-caps;</code></td>
+                <td id="f-ff">Jo puc ser tot</td>
+            </tr>
+        </table>
+        <p class="subtitol">Familia Text</p>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Perquè serveix</th>
+                <th>valors</th>
+                <th>Exemple</th>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>Serveix per aliniar el text</td>
+                <td> <code>text-align: center, left o right <br>
+                    Exemple: text-align: center;
+                </code></td>
+                <td id="t-a">Alineat al mig</td>
+            </tr>
+            <tr>
+                <td>text-indent</td>
+                <td>Sangria de 1ª linia</td>
+                <td> <code>text-indent:40px; </code></td>
+                <td id="t-i">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu porttitor
+                    imperdiet. Sed faucibus sed neque at molestie. Mauris ac metus metus. Quisque nec justo et lorem
+                    vehicula ultrices sed eget diam. In imperdiet elit a mi auctor consectetur. Nulla finibus tortor nec
+                    felis rutrum, et aliquet ipsum elementum. Suspendisse consequat mauris at efficitur molestie.
+                    Aliquam malesuada, lectus at mollis sagittis, lorem justo blandit dolor, ultricies vehicula justo
+                    ligula at tortor. Ut rutrum iaculis purus, at maximus urna. Nam ut erat ex. Aenean pretium gravida
+                    libero, ultricies imperdiet dui porttitor non. Morbi aliquam, tellus non feugiat viverra, ante elit
+                    semper urna, ut auctor massa eros non magna. In dolor justo, fermentum at luctus vel, molestie id
+                </td>
+            </tr>
+            <tr>
+                <td>text-decoration</td>
+                <td>Per posar un subrallat o per sobre</td>
+                <td><code> text-decoration:underline; text-decoration:overline; </code></td>
+                <td id="t-d">underline <br> <br><span id="t-d1">overline gf</span>
+            </tr>
+            <tr>
+                <td>text-transform</td>
+                <td>Definir majuscules o minuscules</td>
+                <td> <code>text-transform:uppercase o text-transform:lowercase;</code></td>
+                <td id="t-t">Hola <span id="t-t1">ADEU</span></td>
+            </tr>
+            <tr>
+                <td>line-height</td>
+                <td>Per modificar el interliniat</td>
+                <td><code>line-height:50px;</code></td>
+                <td id="l-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu porttitor
+                    imperdiet. Sed faucibus sed neque at molestie. Mauris ac metus metus. Quisque nec justo et lorem
+                    vehicula ultrices sed eget diam. In imperdiet elit a mi auctor consectetur. Nulla finibus tortor nec
+                    felis rutrum, et aliquet ipsum elementum.</td>
+            </tr>
+            <tr>
+                <td>letter-spacing</td>
+                <td>Serveix per modificar l'espai entre lletres</td>
+                <td><code>letter-spacing:10px;</code></td>
+                <td id="l-s">letter-spacing</td>
+            </tr>
+            <tr>
+                <td>word-spacing</td>
+                <td>Serveix per modificar l'espai entre paraules</td>
+                <td><code>word-spacing:10px;</code></td>
+                <td id="w-s">HTML I CSS </td>
+            </tr>
+            <tr>
+                <td>vertical-align</td>
+                <td>Serveix per alinear el text en vertical <a href="images/vertical-align.png"
+                        target="_blank">Representació</a></td>
+                <td> vertical-align: middle/top/bottom</td>
+                <td id="v-a"> A dalt <span id="v-a1">mitg</span> <span id="v-a2">a baix</span></td>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>Serveix per posar color a les lletres</td>
+                <td>color: blue/rgb(0,0,0)/#fafafa <br> Exemple: color:rgb (155,155,155)</td>
+                <td id="c">prova aquestes propietats</td>
+            </tr>
+            <tr>
+                <td>text-shadow</td>
+                <td>Serveix per posar ombra al text</td>
+                <td>text-shadow:[alineacio vertical] [alineacio horitzontal] [difuminat] [color]; <br> Exemple
+                    text-shadow: 10px 10px 5px red</td>
+                <td id="t-s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu porttitor
+                    imperdiet.</td>
+            </tr>
+        </table>
+        <p class="subtitol"> Familia fons</p>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Perquè serveix</th>
+                <th>valors</th>
+                <th>Exemple</th>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td>Per posar un color de fons</td>
+                <td>background-color:cornflowerblue</td>
+                <td id="b-c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu porttitor
+                    imperdiet.</td>
+            </tr>
+            <tr>
+                <td>background-image</td>
+                <td>Per posar una imatge de fons</td>
+                <td>background-image: url(../images/[imatge])</td>
+                <td id="b-i">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu porttitor
+                    imperdiet.</td>
+            </tr>
+            <tr>
+                <td>background-repeat</td>
+                <td>Serveix per posar o treure el mode de repetició de la imatge. I es necessita previament el
+                    background-image.</td>
+                <td>background-image: url(../images/[imatge]); <br>
+                    background-repeat: round{omplir}/repeat-x/repeat-y/repeat/no-repeat <br> Exmeple:
+                    background-repeat:round;</td>
+                <td id="b-r">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu porttitor
+                    imperdiet.</td>
+            </tr>
+            <tr>
+                <td>background-attachment</td>
+                <td>Serveix per posar un comportament al fer scroll</td>
+                <td>background-image:url(../images/[imatge]); <br> background-attachment:fixed/local/scroll; <br>
+                    Exemple: background-attachment: fixed;</td>
+                <td>Per veure-ho pulsa <a href="back-attach.html" target="_blank">aquí</a></td>
+            </tr>
+            <tr>
+                <td>background-position</td>
+                <td>Serveix per posar una posicio al fons</td>
+                <td>En aquest has de posar </td>
+                <td id="b-pos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu porttitor
+                    imperdiet.</td>
+            </tr>
+            <tr>
+                <td>background-size</td>
+                <td>Serveix per posar quan ocupa la imatge</td>
+                <td>background-size:cover/contain; <br>
+                    Exemple: background-size: contain;</td>
+                <td id="b-s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu porttitor
+                    imperdiet.</td>
+            </tr>
+            <tr>
+                <td>background</td>
+                <td>Serveix per fer tot el anterior</td>
+                <td>background: [imatge/color] [comportament] <br> Exemple: background: url(images/[imatge]) local </td>
+                <td>Per veure-ho pulsa <a href="background.html" target="_blank">aquí</a></td>
+            </tr>
+
+        </table>
+        <p class="subtitol">Propietats per les caixes (div,span...)</p>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Perquè serveix</th>
+                <th>valors</th>
+                <th>Exemple</th>
+            </tr>
+            <tr>
+                <td>margin-top, margin-left, <br> margin-bottom, margin-right</td>
+                <td>Serveix per posar un marge en un costat.</td>
+                <td>margin-top:10px; margin-left:25px; <br> margin-bottom:0px; margin-right:5px;</td>
+                <td id="m-all">
+                    <div id="m-all">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                        porttitor
+                        imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td>Serveix per fer tot el anterior si solamnet <br> poses una dada s'aplica a tot si poses dos comença
+                    per dalt i <br> va en el sentit de les agulles del rellotge i aixi fins <br>
+                    les 4 dades i si poses auto es posa al mig.</td>
+                <td> margin: 10px 5px;</td>
+                <td> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis
+                        eu
+                        porttitor
+                        imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>padding-top, padding-left, <br> padding-bottom, padding-right</td>
+                <td>Serveix per posar un marge interior,<a href="images/paddingvsmargin.jfif" target="_blank"> link per
+                        veure la diferencia</a>, i aquest ho fa per cada costat.</td>
+                <td>padding-top:10px; padding-left:25px; <br> padding-bottom:0px; padding-right:5px;</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="p-all">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis
+                        eu
+                        porttitor
+                        imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td>Serveix per fer tot el anterior si solamnet <br> poses una dada s'aplica a tot si poses dos comença
+                    per dalt i <br> va en el sentit de les agulles del rellotge i aixi fins <br>
+                    les 4 dades i si poses auto es posa al mig.</td>
+                <td> padding: 10px 5px;</td>
+                <td> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="padding">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
+                        felis
+                        eu
+                        porttitor
+                        imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>border-top-width, border-bottom-width, <br>
+                    border-left-width, border-right-width</td>
+                <td>Serveixen per posar amplada al borde</td>
+                <td>Exemple (haurem de posar altres dades per veure-ho, <br> aquest dades es veuran més endevant): <br>
+                    border-top-width: 4px; <br>
+                    border-bottom-width: 10px; <br>
+                    border-left-width: 1px; <br>
+                    border-right-width:5px;</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="b-wall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
+                        felis
+                        eu
+                        porttitor
+                        imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>border-width</td>
+                <td>Ho agrupa i ho fa també amb el sistema de quantes dades vols posar <br> desde 1 a 4 dades</td>
+                <td>Exemple(haurem de posar altres dades per veure-ho, <br> aquest dades es veuran més endevant): <br>
+                    border-width: 5px 10px;</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="b-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
+                        felis
+                        eu
+                        porttitor
+                        imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>border-top-style, border-bottom-style, <br>
+                    border-left-style, border-right-style</td>
+                <td>Per posar un estil al contorn</td>
+                <td>Exemple(haurem de posar altres dades per veure-ho, <br> aquest dades es veuran més endevant): <br>
+                    border-top-style: dashed; <br> border-bottom-style: solid; <br>
+                    border-left-style: dotted; <br> border-right-style: double;</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="b-st">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
+                        felis
+                        eu
+                        porttitor
+                        imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td> border-style</td>
+                <td> Agrupa les anteriors en una</td>
+                <td>Exemple: <br>
+                    border-style:double;</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="b-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
+                        felis
+                        eu
+                        porttitor
+                        imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td> border-top-color, border-bottom-color, <br>
+                    border-left-color, border-right-color</td>
+                <td> Serveix per posar un color al borde.</td>
+                <td> Exemple: <br>
+                    border-top-color: red; <br> border-bottom-color: blue; <br>
+                    border-left-color: green; <br> border-right-color: yellow;</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="b-call">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
+                        felis eu porttitor imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>border-color</td>
+                <td> Serveix agrupar tot el anterior</td>
+                <td>Exemple <br> border-color:gray green;</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="b-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
+                        felis eu porttitor imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td> border-top, border-bottom, <br> border-left,
+                    border-right</td>
+                <td>Serveix per agrupar totes els elements anteriors com el border-color, border-style ... per cada
+                    costat</td>
+                <td>Exemple: <br>
+                    border-top: solid blue 4px; <br> border-left: dashed black 2px;</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="b-tl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
+                        felis eu porttitor imperdiet.</div>
+                </td>
+
+
+            </tr>
+            <tr>
+                <td>border</td>
+                <td>per definir amplada, estil i color de tot el
+                    contorn</td>
+                <td>Exemple: <br> border 4px solid yellow;</td>
+                <td>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
+                        felis eu porttitor imperdiet.</div>
+
+                </td>
+            </tr>
+            <tr>
+                <td>border-top-left-radius, border-top-right-radius,<br> border-bottom-left-radius,
+                    border-bottom-right-radius</td>
+                <td>grau d'arrodoniment de les cantonades, per cada cantonada <br> (Aquest també pot funcionar amb la
+                    propietat background i es pot aplicar a les caselles de les taules).</td>
+                <td>Exemple: <br> border-top-left-radius:5px; <br> border-top-right-radius: 10px;<br>
+                    border-bottom-left-radius:0px; <br> border-bottom-right-radius:50px;</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="border-radiusall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        auctor
+                        felis eu porttitor imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>border-radius</td>
+                <td> Agrupa les propietats anteriors</td>
+                <td>Exemple: <br> border-radius:10px </td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="border-radius">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        auctor
+                        felis eu porttitor imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>box-shadow</td>
+                <td>Serveix per posar ombra a un div,taula,span,etc.</td>
+                <td>Com funciona: box-shadow: [moviment horitzontal] [moviment vertical] [difuminat] [color]; <br>
+                    Exemple: <br> box-shadow: 10px 5px 5px red;</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                    porttitor
+                    imperdiet.<div id="box-s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        auctor
+                        felis eu porttitor imperdiet.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>border-spacing</td>
+                <td>Serveix per posar espai entre cel·les d'una taula.</td>
+                <td>Exemple: border-spacing:10px</td>
+                <td>
+                    Prem <a href="border-spacing.html" target="_blank">aquì</a> per veure el resultat
+                </td>
+            </tr>
+            <tr>
+                <td>box-sizing</td>
+                <td>Per evitar que l'espai interior i el contorn augmentin les dimensions de la caixa.</td>
+                <td>Exemple: <br> box-sizing: border-box; <br> width:40px;</td>
+                <td>
+                    <div id="box-siz">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                        porttitor
+                        imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor felis eu
+                        porttitor
+                        imperdiet.</div>
+                </td>
+            </tr>
+        </table>
+        <p class="subtitol">CSS per les llistes</p>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Perquè serveix</th>
+                <th>valors</th>
+                <th>Exemple</th>
+            </tr>
+            <tr>
+                <td>list-style-type</td>
+                <td>tipus de vinyeta o numeració, i el tipus son <a href="images/list-style-type.jpeg"
+                        target="_blank">aquests</a> i es posa en el ul</td>
+                <td>Exemple: <br> list-style-type:upper-roman</td>
+                <td>
+                    <ul id="l-st">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRYPT</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>list-style-image</td>
+                <td>per definir una imatge per la llista</td>
+                <td>Exemple: list-style-image: url(../images/[imatge])</td>
+                <td>
+                    <ul id="l-si">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRYPT</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>list-style-position</td>
+                <td>Serveix per establir la posició del marcador respecte al contingut</td>
+                <td>Exemple: list-style-type:square; <br> list-style-position:Inside/outside;</td>
+                <td>
+                    llista inside
+                    <ul id="l-sp">
+                        <li>HTML <br> HTML I CSS</li>
+                        <li>CSS <br> CSS I HTML</li>
+                        <li>JAVASCRYPT</li>
+
+                    </ul>
+                    llista outside
+                    <ul id="l-sp2">
+                        <li>HTML <br> HTML I CSS</li>
+                        <li>CSS <br> HTML I CSS</li>
+                        <li>JAVASCRYPT</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>list-style</td>
+                <td>Serveix per agrupar tot el anterior</td>
+                <td>Exemple: <br>list-style:square inside; <br></td>
+                <td>
+                    <ul id="l-style">
+                        <li>HTML <br> HTML I CSS</li>
+                        <li>CSS <br> CSS I HTML</li>
+                        <li>JAVASCRYPT</li>
+
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p class="subtitol">CSS per amplada i altura</p>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Perquè serveix</th>
+                <th>valors</th>
+                <th>Exemple</th>
+            </tr>
+            <tr>
+                <td>width i height</td>
+                <td>Serveixen per posar el que ha de mesura una imatge o input o un div des de l'altura (mai indicar en
+                    %) o la amplada <br>
+                    (aquesta es pot indicar amb %), i en el cas de les imatges estan relacionades per tan solament <br>
+                    posant una dada es reimensiona automaticament</td>
+                <td> Exemple imatge: <br> width:50px; <br></td>
+                <td> <img src="images/logo.png" alt="logo" id="wih1"></td>
+
+            </tr>
+            <tr>
+                <td>max-width, max-height</td>
+                <td>En aquest cas poses el maxim que pot ocupar un element però l'element pot ocupar menys</td>
+                <td>Exemple: <br> max-width: auto; <br> max-height: 200px;</td>
+                <td>Prem <a href="max-min-height-width.html" target="_blank">aquì</a> per veure el resultat (En el
+                    exemple es veu com no pot passar del maxim)</td>
+            </tr>
+            <tr>
+                <td>min-width, min-height</td>
+                <td>Serveixen per posar un minim</td>
+                <td>Exemple: <br> min-width 500px; <br> min-height:100px</td>
+                <td>Prem <a href="max-min-height-width.html" target="_blank">aquì</a> per veure el resultat</td>
+            </tr>
+        </table>
+        <p class="subtitol">CSS cursor</p>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Perquè serveix</th>
+                <th>valors</th>
+                <th>Exemple</th>
+            </tr>
+            <tr>
+                <td>cursor</td>
+                <td>Serveix per quan el curso pasi per sobre canvi el seu estat com del SO o el de una imatge</td>
+                <td>Exemple: cursor:wait; </td>
+                <td>
+                    <div id="cursor"> PASSA per sobre</div>
+                </td>
+            </tr>
+        </table>
+        <p class="subtitol">CSS per la visualització </p>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Perquè serveix</th>
+                <th>valors</th>
+                <th>Exemple</th>
+            </tr>
+            <tr>
+                <td>visibility</td>
+                <td>indica si l'element es veu o no</td>
+                <td>Exemple: <br> visibility:hidden;</td>
+                <td id="vis">MANTEN PREMUT PER DESAPAREIXA</td>
+            </tr>
+            <tr>
+                <td>display</td>
+                <td>Establex el tipus de capsa que genera l'element(<a href="images/display.png" target="_blank">Com
+                        funciona</a>)</td>
+                <td>Exemple. <br> display:inline;</td>
+                <td>
+                    <div>
+                        <div class="disp">LOREM IPSUM</div>
+                        <div class="disp">LOREM IPSUM</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>opacity</td>
+                <td>Determinar opacitat</td>
+                <td>Exemple: <br> opacity:0.5; (es mesura des de 1 fins a 0).</td>
+                <td id="opa">Estic més claret</td>
+            </tr>
+            <tr>
+                <td>overflow</td>
+                <td>Estableix que passara si les dimensions d'un element supreen a les del seu pare o maxim posat.</td>
+                <td>Exemples: <br> overflow:visible, <br> overflow:hidden; <br> overflow:scroll;</td>
+                <td>Prem <a href="overflow.html">aquí</a> per veure el resultat</td>
+            </tr>
+        </table>
+        <p class="subtitol">CSS per posicionament </p>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Perquè serveix</th>
+                <th>valors</th>
+                <th>Exemple</th>
+            </tr>
+            <tr>
+                <td>float</td>
+                <td>coverteix el element en un element flotant i
+                    permet situar-lo cap a un costat de la pàgina</td>
+                <td>Exemples: <br>
+                    float:left; <br>
+                    float: right; <br>
+                    float:center;</td>
+                <td id="floats">
+                    <div id="float">1</div>
+                </td>
+            </tr>
+            <tr>
+                <td>clear</td>
+                <td>ail· la l’element de qualsevol element flotant</td>
+                <td>Exemples: <br>
+                    clear:left; <br>
+                    clear:right; <br>
+                    clear:both;</td>
+                <td id="clears"> ???</td>
+            </tr>
+            <tr>
+                <td>position</td>
+                <td>permet situar l'element en una posició concreta de la pàgina</td>
+                <td>Exemples: <br>
+                    position:relative; <--Ho fa de manera relativa es a dir passa per sobre <br>
+                        position:absolute; <-- Ho fa de manera absoluta on passa el mateix que el relativa pero passa
+                            com una altra capa<br>
+                            position:fixed; <-- Ho fa de manera fixa es a dir que no es mou <br>
+                </td>
+                <td rowspan="2" id="positions">
+                    <div id="position">
+                        <a href="posicions.html" target="_blank">Exemple aquì</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>top, left, right, bottom</td>
+                <td>Per posar la posició de l'element</td>
+                <td>Exemples: <br>
+                    top:10px; <br>
+                    left:10px; <br>
+                    right:10px; <br>
+                    bottom:10px;</td>
+            </tr>
+            <tr>
+                <td>z-index</td>
+                <td>Serveix per posar elements en diferents capes</td>
+                <td>z-index:[num];</td>
+                <td><img src="images/email.png" alt="prova1" id="prova1"><img src="images/Google.png" alt="prova2"
+                        id="prova2"> </td>
+            </tr>
+
+        </table>
+        <p class="subtitol">CSS per flex</p>
+        <div>Per convertir un element en flexible farem servir
+            la propietat display amb un dels següents
+            valors: <br>
+            <ul>
+                <li>flex: l’element es comportarà con un
+                    element en bloc flexible. </li>
+                <li>inline-flex: l’element es comportarà com
+                    un element el línia flexible.</li>
+            </ul>
+        </div>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <th>Perquè serveix</th>
+                <th>valors</th>
+                <th>Exemple</th>
+            </tr>
+            <tr>
+                <td>flex-direction</td>
+                <td>Serveix per definir com es distribueixen els element a l'interior de l'element flexible</td>
+                <td> Valors: row, row-reverse, column, column-reverse <br> Exemple: <br>flex-direction:column-reverse;
+                </td>
+                <td>
+                    <div id="flex-dir">
+                        <div>Sóc el primer</div>
+                        <div>Sóc el Segon</div>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>justify-content</td>
+                <td> permet alinear els elements flexibles horitzontalment.</td>
+                <td>Valors: flex-start,flex-end, space-between, center, space-around <br> Exemple: <br> justify-content:
+                    space-around;</td>
+                <td width="400px">
+                    <div id="just-cont">
+                        <div>Sóc el primer</div>
+                        <div>Sóc el Segon</div>
+                    </div>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td>align-item, align-self</td>
+                <td>Permet alinear els elements flex verticalment</td>
+                <td> valors: flex-end, center, baseline, stretch <br>Exemple: <br> align-item: center; </td>
+                <td width="400px" height="100px">
+                    <div id="align-it">
+                        <div class="align-sel">Sóc el primer</div>
+                        <div class="align-sel">Sóc el Segon</div>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>flex</td>
+                <td>Serveix per indicar el factor de creixement,e lfactor de reduccioi la mida inicial</td>
+                <td>valors: flex: [creixement] [reduccio] [mesura normal]</td>
+                <td>
+                    <div id="flex-flex">
+                        <div class="div5">Sóc el primer</div>
+                        <div>Sóc el Segon</div>
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>flex-warp</td>
+                <td>indica si l'element flex pot distribuir el contingut en váries files o columnes o solament en una.
+                </td>
+                <td>valors: nowarp, warp, warp-reverse Exemple: warp</td>
+                <td>
+                    <div id="flex-warp">
+                        <div class="div5">Sóc el primer</div>
+                        <div>Sóc el Segon</div>
+                        <div>Sóc el tercer</div>
+                        <div>Sóc el quart</div>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>order</td>
+                <td>estableix l’ordre que ocupa un element
+                    flexible respecte els seus germans (també flexibles)
+                </td>
+                <td>???</td>
+                <td>???</td>
+            </tr>
+            <tr></tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <div class="caixesimparells" id="7">
+        <p class="titolsapartats">Formularis en HTML</p>
+        <p class="text"> En aquest apartat veurem com podem crear formularis en HTML</p>
+        <p class="text">Un formulari és l’eina utilitzada per recollir la
+            informació introduïda per l’usuari</p>
+        <div>
+            <p class="subtitol">Creació d'un formulari</p>
+            <p class="text">El primer que has de fer per crera un formulari es afegir el &lt;form> que és el encarrgeat
+                de que puguem enviar les dades a una base de dades.</p>
+            <p class="text"> On hem de posar una serie de parametres: </p>
+            <ul>
+                <li class="text"><span class="verde">action</span>: Servei per posar la URL on es guardan les dades.
+                </li>
+                <li class="text"><span class="verde">name</span>: Serveix per posar un nom.</li>
+                <li class="text"><span class="verde">enctype</span>: Forma en les que es codificaran les dades.</li>
+                <li class="text"><span class="verde">method</span>: determina la manera com s'envien les dades (get o
+                    post).</li>
+                <li class="text"><span class="verde">target</span>: Serveix per determinar on s'ha d'obrir el URL</li>
+                <li class="text"><span class="verde">autocomplete</span>: Serveix per activar o desactivar l'opció de
+                    autocompletar en els elements de formulari.</li>
+                <li class="text"><span class="verde">novalidate</span>: Serveix per permtere enviar dades sense validar
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="subtitol">Elements de formularis</p>
+            <p class="text">En els formularis d'HTML hi ha una serie de tipus de fer entrades de l'usuari:</p>
+            <nav class="menu">
+                <h3 class="menutit">Elements de formulari</h3>
+                <ul>
+                    <li><a class="link" href="#input">input</a></li>
+                    <li><a class="link" href="#textarea">textarea</a></li>
+                    <li><a class="link" href="#select">select</a></li>
+                    <li><a class="link" href="#datalist">datalist</a></li>
+                    <li><a class="link" href="#button">button</a></li>
+                    <li><a class="link" href="#fieldset">fieldset</a></li>
+                    <li><a class="link" href="#label">label</a></li>
+                </ul>
+            </nav>
+            <div id="input">
+                <p class="subtitol">INPUT</p>
+                <p class="text">En aquest cas aquest cas tenim que els inputs poden ser de moltes maneres que es
+                    defineixen mitjancant &lt;input type="[tipus]">:</p>
+                <div>
+                    <p class="subtitol"> type="text"</p>
+                    <p class="text">En aquest cas es per afegir text</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="text"> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="text">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="text">En aquest cas també podem posar una serie de paramtres al input per tal de que no
+                        sigui un element tant simple com el que es ara.</p>
+                    <p class="text">Per exemple:</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="text" placeholder="Introdueix un nom" required> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="text" placeholder="Introdueix un nom" required>
+                            </form>
+                        </div>
+                    </div>
+                    <p class="text">En aquest cas hem fet servir el següents parametres:</p>
+                    <p class="text"><a href="#placeholder" class="verde text">Placeholder</a>: Serveix per posar text
+                        alternatiu.</p>
+                    <p class="text"><a href="#required" class="verde text">Required</a>: Serveix per dir si es
+                        obligatori.</p>
+                </div>
+
+                <div>
+                    <p class="subtitol"> type="email"</p>
+                    <p class="text">En aquest cas es per afeir un email la seva diferencia és que s'ha d'afegir un @ per
+                        poder
+                        ser correcte.</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="email" placeholder="Introdueix un email" required title="Recorda posar un
+                            @.">
+                            <br>
+                            &lt;/form>
+                        </div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="email" placeholder="Introdueix un email" required
+                                    title="Recorda posar un @.">
+                            </form>
+                        </div>
+                    </div>
+                    <p class="text">En aquest cas si et mantens a sobre del input veuras que es deplega un avis si en
+                        algun
+                        cas
+                        has posat el email incorrectament. On també fem servir un paramtre nou:</p>
+                    <p class="text"><a href="#title" class="verde text">Required</a>: Serveix per posar text a l'alerta
+                        que
+                        apareix.</p>
+                </div>
+                <div>
+                    <p class="subtitol">type="date"</p>
+                    <p class="text">En aquest cas serveix per poder posar una data en un input aquest la seva diferencia
+                        és
+                        que
+                        deixa de ser
+                        un element de text com ha tal, en que implementa un menú per poder triar la data.</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="date" min="2024-12-8" max="2026-1-1"required> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="date" min="2024-12-8" max="2026-1-1" required>
+                            </form>
+                        </div>
+                    </div>
+                    <p class="text">En aquest punt posem el valor min i max que serveixen per:</p>
+                    <p class="text"><a href="#min" class="verde text">Min</a>: Serveix per posar un mínim.</p>
+                    <p class="text"><a href="#max" class="verde text">Max</a>: Serveix per posar un maxim.</p>
+                </div>
+                <div>
+                    <p class="subtitol">type="checkbox"</p>
+                    <p class="text">Aquest tipus de input es basicament el que serveix per fer una selecció de opcions.
+                    </p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="checkbox" id="HTML" name="HTML" checked> &lt;label for="HTML"> HTML
+                            &lt;/label>
+                            <br>
+                            &lt;input type="checkbox" id="CSS" name="CSS"> &lt;label for="CSS"> CSS &lt;/label> <br>
+                            &lt;/form>
+                        </div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank"> <br>
+                                <input type="checkbox" id="HTML" name="HTML" checked> <label for="HTML"> HTML </label>
+                                <br>
+                                <input type="checkbox" id="CSS" name="CSS"> <label for="CSS"> CSS </label> <br>
+                            </form>
+                        </div>
+                    </div>
+                    <p class="text">En aquest punt posem el valor name i el checked que serveixen per:</p>
+                    <p class="text"><a href="#name" class="verde text">Name</a>: Serveix perque al pulsar el label sigui
+                        el
+                        que
+                        estas responent.</p>
+                    <p class="text"><a href="#checked" class="verde text">Checked</a>: Serveix per establir que per
+                        defecte
+                        estar premut.</p>
+                </div>
+                <div>
+                    <p class="subtitol">type="file"</p>
+                    <p class="text">És un element que permet pujar arxius en el formulari</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="file" id="file" name="file" checked> &lt;label for="file"> Introdueix un
+                            arxiu
+                            &lt;/label> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank"> <br>
+                                <input type="file" id="file" name="file" checked> <label for="file"> Introdueix un arxiu
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <p class="subtitol"> type="password"</p>
+                    <p class="text">Aquest es el que permet que escriguis de forma que no es vegi el que estas posant,
+                        aquest
+                        acostuma ha portar un <a href="#pattern">pattern</a> que més endavant s'explica.</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="password" required pattern=".{9,20}"> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="password" required pattern=".{9,20}" class="passwd">
+                            </form>
+                        </div>
+                    </div>
+                    <p class=" text verde"> Breu explicació pattern</p>
+                    <p class="text">Serveix per posar un rang de caracters i una longitud, En aquest cas significa el
+                        següent:
+                    </p>
+                    <p class="text"> <span class="verde">. (El punt):</span> Significa qualsevol valor.</p>
+                    <p class="text"> <span class=" verde">[9,20]:</span>Significa que la contrassenya ha de tenir minim
+                        9
+                        caracters i maxim 20.</p>
+                </div>
+                <div>
+                    <p class="subtitol">type="radio"</p>
+                    <p class="text">Serveix per crear botons de selecció en que solament pots seleccionar un.</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="radio" name=equipº id="Barça" value="Barça" >&lt;label
+                            for="Barça">Barça&lt;/label> <br>
+                            &lt;input type="radio"name=equip id="Madrid" value="Madrid" >&lt;label
+                            for="Madrid">Madrid&lt;/label>
+                            <br>
+                            &lt;/form>
+                        </div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="radio" name="equip" id="Barça" value="Barça"><label
+                                    for="Barça">Barça</label>
+                                <input type="radio" name="equip" id="Madrid" value="Madrid"><label
+                                    for="Madrid">Madrid</label>
+                            </form>
+                        </div>
+                    </div>
+                    <p class="text">En aquest cas fem servir el <a href="#value" class="verde">value</a> que serveix per
+                        quan es
+                        guardi en la base de dades o en el lloc que sigui tingui un valor.</p>
+                    <p> I el <a>name</a> serveix per que al pulsar un dels dos el que no esta seleccionat es
+                        deselecciona l'altre.</p>
+                </div>
+                <div>
+                    <p class="subtitol">type="button"</p>
+                    <p class="text">Serveix per crear botons sense cap funcionalitat</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="button" value="Botó"> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="button" value="Botó">
+
+                            </form>
+                        </div>
+                    </div>
+                    <p class="text">En aquest cas fem servir el <a href="#value" class="verde">value</a> que serveix per
+                        quan es
+                        guardi en la base de dades o en el lloc que sigui tingui un valor i que tingui un text el botó.
+                    </p>
+                </div>
+                <div>
+                    <p class="subtitol">type="submit"</p>
+                    <p class="text">Serveix per crear botons que et redirigeixen cap a enviar les dades del formulari.
+                    </p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="submit" value="Enviar"> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="subtitol">type="reset"</p>
+                    <p class="text">Serveix per crear botons que borren tot el que has posat al formulari</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="text" placeholder="Introdueix text"> <br>
+                            &lt;input type="reset" value="Desfer"> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="text" placeholder="Introdueix text">
+                                <input type="reset" value="Desfer">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="subtitol">type="image"</p>
+                    <p class="text">Serveix per crear botons des de una imatge que et redirigeixen cap a enviar les
+                        dades
+                        del
+                        formulari.</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="text" placeholder="Introdueix text"> <br>
+                            &lt;input type="image" src="images/[imatge]"> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="text" placeholder="Introdueix text">
+                                <input type="image" src="images/1033956.png" class="image">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="subtitol">type="range"</p>
+                    <p class="text">Serveix per crear una barra per seleccionar numeros.</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;label for="range">0&lt;/label> &lt;input type="range" id="range" max=10 min=0> &lt;label
+                            for="range">10&lt;/label> <br>
+
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <label for="range">0</label> <input type="range" id="range" max=10 min=0> <label
+                                    for="range">10</label>
+
+                            </form>
+                        </div>
+                    </div>
+                    <p class="text">En aquest punt posem el valor min i el max que serveixen per:</p>
+                    <p class="text"><a href="#min" class="verde text">Min</a>: Serveix per posar el minim de la barra
+                    </p>
+                    <p class="text"><a href="#max" class="verde text">Max</a>: Serveix per establir el maxim de la
+                        barra.
+                    </p>
+                </div>
+                <div>
+                    <p class="subtitol">type="time"</p>
+                    <p class="text">Serveix per posar una hora.</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="time"> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="time">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="subtitol">type="datetime-local"</p>
+                    <p class="text">Serveix per crear posar un dia i una hora.</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="datetime-local"> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="datetime-local">
+                            </form>
+                        </div>
+                    </div>
+                    <p class="subtitol">type="color"</p>
+                    <p class="text">Serveix per crear posar un dia i una hora.</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="color" value="#e66465"> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="color" value="#e66465">
+                            </form>
+                        </div>
+                    </div>
+                    <p class="text">En aquest cas fem servir el <a href="#value" class=" verde">value</a> per definir un
+                        color
+                        per defecte.</p>
+                </div>
+                <div>
+                    <p class="subtitol">type="number"</p>
+                    <p class="text">Serveix per posar una hora.</p>
+                    <div class="flexcodi">
+                        <div class="codi">&lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input type="number"min="9" max="99" value="10"> <br>
+                            &lt;/form></div>
+                        <div class="result">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input type="number" min="9" max="99" value="10">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="subtitol">Atributs input</p>
+                    <p class="text"> En aquest punts hem estat veient una serie d'atributs per poder donar millor
+                        funcionalitat</p>
+                    <table>
+                        <tr>
+                            <th>Atribut</th>
+                            <th>Per a què serveix?</th>
+                            <th>Exemple</th>
+                        </tr>
+                        <tr>
+                            <td id="name">name="[nom]"</td>
+                            <td>Nom identificatiu de l'element (excepte un botó de selecció)</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="color" value="#e66465" name="colors">
+                                </form>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="disabled">disabled</td>
+                            <td>Desactiva l'element</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="text" value="No pots pulsar" disabled>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="readonly">readonly</td>
+                            <td>No es permet modificar el valor de l'element </td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="text" value="No pots canviar el text" readonly>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="required">required</td>
+                            <td> l'element es obligatori </td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <label for="required"> Es oligatori i et demana omplir-ho</label>
+                                    <input type="text" required name="required">
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="autofocus">autofocus</td>
+                            <td>Serveix per que l'element rebrà focus automàticament al carregar el formulari.</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <label for="required"></label>
+                                    <input type="color" autofocus id="required">
+                                </form>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td id="value">value="[nom]"</td>
+                            <td>valor per defecte en els elements o text que es mostren en el botons.</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="text" value="Hola">
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="checked">checked</td>
+                            <td>indica si l'element està seleccionat (només per caixes de validació i botons de
+                                selecció)</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank"> <br>
+                                    <input type="checkbox" id="HTML" name="HTML" checked> <label for="HTML"> HTML
+                                    </label>
+                                    <br>
+                                    <input type="checkbox" id="CSS" name="CSS"> <label for="CSS"> CSS </label> <br>
+                                    <input type="checkbox" id="Java" name="CSS"> <label for="Java"> Javascrypt </label>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="minlenght">minlenght="[num]" o maxlenght="[num]"</td>
+                            <td id="maxlenght">mínim i màxim de caràcters permesos (només per elements que contenen
+                                text)</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="text" minlength="5" maxlength="10" id="minleng" required>
+                                    <label for="minleng">Escriu fins veure quan es valid de llargada</label>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="min">min="[num]" max="[num]"</td>
+                            <td id="max">valors mínim i màxim permesos (només per elements que contenen números i dates)
+                            </td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="number" min="5" max="25" value="10"><span>fixat que no pots passar de 5
+                                        i 25</span>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="step">step="[num]"</td>
+                            <td>Interval d'increment i/odecrement (nomès per elements que contenen números)</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="number" step="5" value="10"><span>fixat que passes de 5 en 5</span>
+                                    <input type="range" step="5" name="" id="" min="5" max="100">
+                                </form>
+                            </td>
+
+
+                        </tr>
+                        <tr>
+                            <td id="src">src="[arxiu]"</td>
+                            <td>URL de la imatge (nomes per botons image)</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="image" src="images/1033956.png" width="50px">
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>accept="[tipus]"</td>
+                            <td>Tipus d'arxius permesos en una caixa de selecció d'arxius</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="file" accept=".pdf">
+                                </form>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td id="placeholder">placeholder="[text]"</td>
+                            <td>Serveix per establir un text que pot ajudar a l'usuari</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="text" placeholder="Introdueix un nom">
+
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="list">list="[llitsa]"</td>
+                            <td>útil per associar l'element a un <a>&lt;datalist></a></td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="text" list="browsers">
+                                    <datalist id="browsers">
+                                        <option value="Chrome">
+                                        <option value="Firefox">
+                                        <option value="Internet Explorer">
+                                        <option value="Opera">
+                                        <option value="Safari">
+                                    </datalist>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="pattern">Pattern="[patro]"</td>
+                            <td>Permet validar una expresió per validar el text introduit. <br>
+                                Aquesta expressió estarà dividida en 2 parts: <br>
+                                – Caràcters permesos (indicats entre [ ] o directament . ): Es pot definir amb un rang o
+                                amb le letres o numeros a l'atzar per exemple [A-Za-z]=totes les lletres de majuscula a
+                                minuscula o [abc54]=solament la a,b,c i el 5 i el 4. <br>
+                                – Mínim i màxim de caràcters permesos (indicats entre { }) : I aqui poses la largada es
+                                a dir {6,20}=minim 6 i maxim 20 caracters. <br>
+                                Exemple: &lt;input type="text" required pattern="[A-Z]{9,20}-.{2}"> <br>
+                                Aixo vol dir que el nostra contrassenya ha de tenir 9 o 20 caracters en majucula despres
+                                un guio i despres qualsevol caracters dues vegades. </td>
+                            </td>
+                            <td>
+                                <input type="text" required pattern="[A-Z]{9,20}-.{2}">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id=" title">title="[text]"</td>
+                            <td>Permet posar un text alternatiu en el moment que fas un error.</td>
+                            <td>
+                                <form action="form/form.php" method="post" target="_blank">
+                                    <input type="email" placeholder="Introdueix un email" required title="Recorda posar un
+                                    @.">
+                                </form>
+                            </td>
+
+
+                    </table>
+                </div>
+            </div>
+            <div id="textarea">
+                <p class="subtitol">TEXTAREA</p>
+                <p class="text">En aquest cas tenim ujn altre tipus de formulari que son el textarea que permeten
+                    escriure molt de text.</p>
+                <div class="flexcodi">
+                    <div class="codi">
+                        &lt;form action="form/form.php" method="post" target="_blank">
+                        &lt;textarea name="textarea" id="textmoltllarg">&lt;/textarea>
+                        &lt;/form>
+                    </div>
+                    <div class="result">
+                        <form action="form/form.php" method="post" target="_blank">
+                            <textarea name="textarea" id="textmoltllarg"></textarea>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <table>
+                    <tr>
+                        <th>Atribut</th>
+                        <th>Per a què serveix?</th>
+                        <th>Exemple</th>
+                    </tr>
+                    <tr>
+                        <td>name="[nom]"</td>
+                        <td>Nom identificatiu de l'element</td>
+                        <td>
+                            <form action="form/form.php" method="post" target="_blank">
+                                <textarea name="res" id="res"></textarea>
+                            </form>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>disabled</td>
+                        <td>Desactiva l'element</td>
+                        <td>
+                            <form action="form/form.php" method="post" target="_blank">
+                                <textarea name="res" id="res" disabled></textarea>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>readonly</td>
+                        <td>No es permet modificar el valor de l'element </td>
+                        <td>
+                            <form action="form/form.php" method="post" target="_blank">
+                                <textarea name="res" id="res" readonly>Text no modificable</textarea>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>required</td>
+                        <td> l'element es obligatori </td>
+                        <td>
+                            <form action="form/form.php" method="post" target="_blank">
+                                <textarea name="res" id="res" required></textarea>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>autofocus</td>
+                        <td>Serveix per que l'element rebrà focus automàticament al carregar el formulari.</td>
+                        <td>
+                            <form action="form/form.php" method="post" target="_blank">
+                                <textarea name="res" id="res" autofocus></textarea>
+                            </form>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>cols="[num]"/ rows="[num]"</td>
+                        <td>Per col·locar la mida d'un element de text area</td>
+                        <td>
+                            <form action="form/form.php" method="post" target="_blank">
+                                <textarea name="res" id="res" cols="4" row="50"></textarea>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>placeholder="[text]"</td>
+                        <td>Mostra una breu ajuda sobre el tipus d'informació que s'ha d'introduir</td>
+                        <td>
+                            <form action="form/form.php" method="post" target="_blank">
+                                <textarea name="res" id="res" placeholder="Introdueix un text"></textarea>
+                            </form>
+                        </td>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="select">
+                <p class="subtitol">SELECT</p>
+                <p class="text">En aquest cas tenim un altre tipus de formulari que son els select que permeten fer
+                    una
+                    selecció a traves d'una llista.</p>
+                <div class="flexcodi">
+                    <div class="codi">
+                        <pre>
+                        &lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;select name="select" id="select"> <br>
+                                &lt;option value="1">Opció 1&lt;/option> <br>
+                                &lt;option value="2">Opció 2&lt;/option> <br>
+                                &lt;optgroup label="Altres"> <br>
+                                    &lt;option value="3">Opció 3&lt;/option> <br>
+                                    &lt;option value="4">Opció 4&lt;/option> <br>
+                                &lt;/optgroup
+                            &lt;/select></pre>
+                    </div>
+                    <div class="result">
+                        <form action="form/form.php" method="post" target="_blank"> <br>
+                            <select name="select" id="select"> <br>
+                                <option value="1">Opció 1</option> <br>
+                                <option value="2">Opció 2</option> <br>
+                                <optgroup label="Altres"> <br>
+                                    <option value="3">Opció 3</option> <br>
+                                    <option value="4">Opció 4</option> <br>
+                                </optgroup>
+                            </select>
+                    </div>
+                </div>
+                <div class="flexcodi">
+                    <div>
+                        <p class="verde text">Atributs select</p>
+                        <table>
+                            <tr>
+                                <th>Atribut</th>
+                                <th>Per a què serveix?</th>
+                                <th>Exemple</th>
+                            </tr>
+                            <tr>
+                                <td>name="[nom]"</td>
+                                <td>Nom identificatiu de l'element</td>
+                                <td>
+                                    <form action="form/form.php" method="post" target="_blank">
+                                        <select name="select" id="select">
+                                            <option value="1">Opció 1</option>
+                                            <option value="2">Opció 2</option>
+                                            <optgroup label="Altres">
+                                                <option value="3">Opció 3</option>
+                                                <option value="4">Opció 4</option>
+                                            </optgroup>
+                                        </select>
+                                    </form>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>disabled</td>
+                                <td>Desactiva l'element</td>
+                                <td>
+                                    <form action="form/form.php" method="post" target="_blank">
+                                        <select name="select" id="select" disabled>
+                                            <option value="1">Opció 1</option>
+                                            <option value="2">Opció 2</option>
+                                            <optgroup label="Altres">
+                                                <option value="3">Opció 3</option>
+                                                <option value="4">Opció 4</option>
+                                            </optgroup>
+                                        </select>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>required</td>
+                                <td> l'element es obligatori </td>
+                                <td>
+                                    <form action="form/form.php" method="post" target="_blank">
+                                        <select name="select" id="select" required>
+                                            <option value="1">Opció 1</option>
+                                            <option value="2">Opció 2</option>
+                                            <optgroup label="Altres">
+                                                <option value="3">Opció 3</option>
+                                                <option value="4">Opció 4</option>
+                                            </optgroup>
+                                        </select>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>autofocus</td>
+                                <td>Serveix per que l'element rebrà focus automàticament al carregar el formulari.</td>
+                                <td>
+                                    <form action="form/form.php" method="post" target="_blank">
+                                        <select name="select" id="select" autofocus>
+                                            <option value="1">Opció 1</option>
+                                            <option value="2">Opció 2</option>
+                                            <optgroup label="Altres">
+                                                <option value="3">Opció 3</option>
+                                                <option value="4">Opció 4</option>
+                                            </optgroup>
+                                        </select>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>multiple</td>
+                                <td>Serveix per seleccionar més d'una opció.</td>
+                                <td>
+                                    <form action="form/form.php" method="post" target="_blank">
+                                        <select name="select" id="select" multiple>
+                                            <option value="1">Opció 1</option>
+                                            <option value="2">Opció 2</option>
+                                            <optgroup label="Altres">
+                                                <option value="3">Opció 3</option>
+                                                <option value="4">Opció 4</option>
+                                            </optgroup>
+                                        </select>
+                                    </form>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <p class="verde text">Atributs option</p>
+                        <table>
+                            <table>
+                                <tr>
+                                    <th>Atribut</th>
+                                    <th>Per a què serveix?</th>
+                                    <th>Exemple</th>
+                                </tr>
+                                <tr>
+                                    <td>value="[nom]"</td>
+                                    <td>Valor corresponent a la selecció.</td>
+                                    <td>
+                                        <form action="form/form.php" method="post" target="_blank">
+                                            <select name="select" id="select">
+                                                <option value="1">Opció 1</option>
+                                                <option value="2">Opció 2</option>
+                                                <optgroup label="Altres">
+                                                    <option value="3">Opció 3</option>
+                                                    <option value="4">Opció 4</option>
+                                                </optgroup>
+                                            </select>
+                                        </form>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>selected</td>
+                                    <td>Serveix per marcar l'opciço predefinida</td>
+                                    <td>
+                                        <form action="form/form.php" method="post" target="_blank">
+                                            <select name="select" id="select">
+                                                <option value="1">Opció 1</option>
+                                                <option value="2">Opció 2</option>
+                                                <optgroup label="Altres">
+                                                    <option value="3" selected>Opció 3</option>
+                                                    <option value="4">Opció 4</option>
+                                                </optgroup>
+                                            </select>
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                    </div>
+                </div>
+
+            </div>
+            <div id="datalist">
+                <p class="subtitol">DATALIST</p>
+                <p class="text">En aquest cas tenim un altre tipus de formulari que son els datalist que permeten fer
+                    crear un inputs amb uns valors predefinits a traves d'una llista.</p>
+                <div class="flexcodi">
+                    <div class="codi">
+                        <pre>
+                        &lt;form action="form/form.php" method="post" target="_blank"> <br>
+                            &lt;input list="browsers"> <br>
+                            &lt;datalist id="browsers"> <br>
+                                &lt;option value="Chrome"> <br>
+                                &lt;option value="Firefox"> <br>
+                                &lt;option value="Internet Explorer"> <br>
+                                &lt;option value="Opera" label="Opera and Opera GX"> <br>
+                                &lt;option value="Safari"> <br>
+                            &lt;/datalist> <br>
+                            &lt;/form></pre>
+                    </div>
+                    <div class="result">
+                        <form action="form/form.php" method="post" target="_blank">
+                            <input list="browsers">
+                            <datalist id="browsers">
+                                <option value="Chrome">
+                                <option value="Firefox">
+                                <option value="Internet Explorer">
+                                <option value="Opera" label="Opera and Opera GX">
+                                <option value="Safari">
+                            </datalist>
+                        </form>
+                    </div>
+                </div>
+                <p class="verde text">Atributs option</p>
+                <table>
+                    <tr>
+                        <th>Atribut</th>
+                        <th>Per a què serveix?</th>
+                        <th>Exemple</th>
+                    </tr>
+                    <tr>
+                        <td>value="[nom]"</td>
+                        <td>Valor corresponent a la selecció.</td>
+                        <td>
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input list="browsers">
+                                <datalist id="browsers">
+                                    <option value="Chrome">
+                                    <option value="Firefox">
+                                    <option value="Internet Explorer">
+                                    <option value="Opera" label="Opera and Opera GX">
+                                    <option value="Safari">
+                                </datalist>
+                            </form>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>label</td>
+                        <td>Serveix per afegir una breu descripció de l'opció </td>
+                        <td>
+                            <form action="form/form.php" method="post" target="_blank">
+                                <input list="browsers">
+                                <datalist id="browsers">
+                                    <option value="Chrome">
+                                    <option value="Firefox">
+                                    <option value="Internet Explorer">
+                                    <option value="Opera" label="Opera and Opera GX">
+                                    <option value="Safari">
+                                </datalist>
+                            </form>(no funciona!!!)
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="button">
+                <p class="subtitol">BUTTON</p>
+                <p class="text">En aquest cas el botons fan el mateix que el input type="button"</p>
+                <div class="flexcodi">
+                    <div class="codi">
+                        <pre>
+                            &lt;form action="form/form.php" method="post" target="_blank"> <br>
+                                &lt;button type="button">Botó&lt;/button> <br>
+                                &lt;button type="submit">Enviar&lt;/button> <br>
+                                &lt;button type="reset">Desfer&lt;/button> <br>
+                            &lt;/form></pre>
+                    </div>
+                    <div class="result">
+                        <form action="form/form.php" method="post" target="_blank">
+                            <button type="button">Botó</button>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Desfer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="fieldset">
+                <p class="subtitol">FIELDSET i LEGEND</p>
+                <p class="text">El fieldset serveix per fer agrupacions de camps d'un formulari. I legend per posar
+                    definició a la agrupació anterior.</p>
+                <div class="flexcodi">
+                    <div class="codi">
+                        <pre>
+                            &lt;form action="form/form.php" method="post" target="_blank"> <br>
+                                &lt;fieldset> <br>
+                                    &lt;legend>DADES PERSONALS&lt;/legend> <br>
+                                    &lt;label for="nom">Nom:&lt;/label> <br>
+                                    &lt;input type="text" id="nom" name="nom"> <br>
+                                    &lt;label for="cognom">Cognom:&lt;/label> <br>
+                                    &lt;input type="text" id="cognom" name="cognom"> <br>
+                                &lt;/fieldset> <br>
+                            &lt;/form></pre>
+                    </div>
+                    <div class="result">
+                        <form name="prova" enctype="multipart/from-data" method="post">
+                            <form action="form/form.php" method="post" target="_blank">
+                                <fieldset>
+                                    <legend>DADES PERSONALS</legend>
+                                    <label for="nom">Nom:</label>
+                                    <input type="text" id="nom" name="nom">
+                                    <label for="cognom">Cognom:</label>
+                                    <input type="text" id="cognom" name="cognom">
+                                </fieldset>
+                            </form>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="subtitol">LABEL</p>
+                <p class="text">Serveix per posar una etiqueta a un input. I quann pulses en ella et porta en el input
+                    si li poses el id corresponent en el input i en el for el id.</p>
+                <div class="flexcodi">
+                    <div class="codi">
+                        <pre>
+                            &lt;form action="form/form.php" method="post" target="_blank"> <br>
+                                &lt;label for="noms">Nom:&lt;/label> <br>
+                                &lt;input type="text" id="noms" name="nom"> <br>
+                            &lt;/form></pre>
+                    </div>
+                    <div class="result">
+                        <form action="form/form.php" method="post" target="_blank">
+                            <label for="noms">Nom:</label>
+                            <input type="text" id="noms" name="nom">
+                        </form>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+        <div>
+            <p class="titolsapartats">CSS en formularis</p>
+            <p class="text">L'aspecte dels formularis es pot modificar amb CSS.Per tant esxiseteixen una serie de
+                propeitats que permeten que siguin més representatius.</p>
+            <table>
+                <tr>
+                    <th>Propietat</th>
+                    <th>Explicació</th>
+                    <th>Exemple</th>
+                    <th>Resultat</th>
+                </tr>
+                <tr>
+                    <td>outline</td>
+                    <td>Permet eliminar la línia que mostren alguns navegadors al voltant de l’element que rep el focus
+                    </td>
+                    <td><code>.classe{ <br>
+                        outline:none; <br> }
+                    </code></td>
+                    <td>
+                        <form action="form/form.php" method="post" target="_blank">
+                            <label for="nom1">Nom:</label>
+                            <input type="text" id="nom1" name="nom">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:focus</td>
+                    <td>Permet modificar el format que tindra quan rebi el focus</td>
+                    <td>.classe:focus{ <br>
+                        background-color:aqua; <br>
+                        border: red 3px solid; <br>
+                        }</td>
+                    <td>
+                        <form action="form/form.php" method="post" target="_blank">
+                            <label for="nom2">Nom:</label>
+                            <input type="text" id="nom2" name="nom">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:required</td>
+                    <td>Permet modificar el format que tindra els elements quan siguin obligatoris</td>
+                    <td>.classe:required{ <br>
+                        border:5px solid orange; <br>
+                        margin:10px; <br>
+                        width:100px <br>
+                        } </td>
+                    <td>
+                        <form action="form/form.php" method="post" target="_blank">
+                            <label for="nom3">Nom:</label>
+                            <input class="req" type="text" id="nom3" name="nom" required>
+                            <label for="nom4">Cognom:</label>
+                            <input class="req" type="text" id="nom4" name="nom">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:invalid</td>
+                    <td>Permet modificar el format que tindra els elements quan estiguin escrits erroniament. </td>
+                    <td>.classe:invalid{ <br>
+                        color: red; <br>
+                        cursor: progress;<br>
+                        }
+                    </td>
+                    <td>
+                        <form action="form/form.php" method="post" target="_blank">
+                            <label for="nom3">Nom:</label>
+                            <input type="text" id="nom5" name="nom" required minlength="6">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:valid</td>
+                    <td>Permet modificar el format que tindra els elements quan estiguin escrits correctament.</td>
+                    <td>.classe:valid{ <br>
+                        color: green; <br>
+                        background-image: url(../images/tick.png);<br>
+                        background-repeat: no-repeat; <br>
+                        background-position: right; <br>
+                        background-size: contain; <br>
+                        }
+
+                    </td>
+                    <td>
+                        <form action="form/form.php" method="post" target="_blank">
+                            <label for="nom6">Usuari:</label>
+                            <input type="text" id="nom6" name="nom" required pattern="[A-Za-z0-9]{9,20}"
+                                title="9 a 20 de números i lletres">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:enabled</td>
+                    <td>format dels elements actius</td>
+                    <td>.classe:enabled{ <br>
+                        border: 2px solid green; <br>
+                        padding: 10px;<br>
+                        width: 300px;<br>
+                        background-color: gray; <br>
+                        border-radius: 5px;<br>
+                        }</td>
+                    </td>
+                    <td>
+                        <form action="form/form.php" method="post" target="_blank">
+                            <label for="nom7">Usuari:</label> <br>
+                            <input type="text" id="nom7" name="nom" required pattern="[A-Za-z0-9]{9,20}"
+                                title="9 a 20 de números i lletres" placeholder="Introdueix un usuari">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:disabled</td>
+                    <td>format dels elements deshabilitats.</td>
+                    <td>.classe:disabled{
+                        color:white; <br>
+                        padding: 10px; <br>
+                        width: 300px; <br>
+                        background-color: gray; <br>
+                        border-radius: 5px; <br>
+                        }</td>
+
+                    </td>
+                    <td>
+                        <form action="form/form.php" method="post" target="_blank">
+                            <label for="nom7">Usuari:</label> <br>
+                            <input type="text" id="nom8" name="nom" required pattern="[A-Za-z0-9]{9,20}"
+                                title="9 a 20 de números i lletres" placeholder="Introdueix un usuari" disabled>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:checked</td>
+                    <td>format dels elements seleccionats.</td>
+                    <td>classe:checked{
+                        transform:scale(1.5)} <br>
+
+                    </td>
+                    </td>
+                    <td>
+                        <form action="form/form.php" method="post" target="_blank">
+                            <input type="checkbox" id="HTML1" name="HTML" checked class="check"> <label for="HTML1"
+                                class="check"> HTML </label>
+                            <input type="checkbox" id="CSS1" name="CSS" class="check"> <label for="CSS1" class="check">
+                                CSS </label>
+                            <input type="checkbox" id="Java1" name="CSS" class="check"> <label for="Java1"
+                                class="check"> Javascrypt </label>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>:not(:checked)</td>
+                    <td>format dels elements no seleccionats</td>
+                    <td>classe:not{
+                        box-shadow: 0 px 0px 5px black;
+                        }</td>
+                    </td>
+                    <td>
+                        <form action="form/form.php" method="post" target="_blank">
+                            <input type="checkbox" id="HTML1" name="HTML" checked class="not"> <label for="HTML1"> HTML
+                            </label>
+                            <input type="checkbox" id="CSS1" name="CSS" class="not"> <label for="CSS1"> CSS </label>
+                            <input type="checkbox" id="Java1" name="CSS" class="not"> <label for="Java1"> Javascrypt
+                            </label>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>::placeholder</td>
+                    <td> Dona format del text definit a l'atribut placeholder</td>
+                    <td>.classe::placeholder{ <br>
+                        color: black; <br>
+                        font-weight:bold; <br>
+                        }
+                    </td>
+                    <td>
+                        <form action="form/form.php" method="post" target="_blank">
+                            <label for="nom7">Usuari:</label> <br>
+                            <input type="text" id="nom9" name="nom" required pattern="[A-Za-z0-9]{9,20}"
+                                title="9 a 20 de números i lletres" placeholder="Introdueix un usuari">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="caixesparells" id="8">
+        <p class="titolsapartats">Propietats CCS (2)</p>
+        <p class="text">Aquestes són les propietats que permeten modificar més elaboradament les pagines web.</p>
+        <div class="text">
+            Existeixen algunes propietats CSS que encara estan en fase
+            experimental o que encara no s’han considerat com a
+            estàndards <br>
+            • Davant d’aquesta situació, optarem per utilitzar els prefixos de
+            navegadors que incorpora CSS <br>
+            • Els prefixos disponibles són:-webkit- (per a Chrome i
+            Safari),-moz- (per a Firefox),-o- (per a Opera) i-ms- (per
+            a Internet Explorer) <br>
+            • Per utilitzar un d’aquests prefixos, simplement s’ha d’escriure
+            el prefix just davant de la propietat CSS, per exemple:<br>
+            <span class="verde">-webkit-border-radius: 10px;</span> <br>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <p class="subtitol">Propietats column</p>
+        <table>
+            <tr>
+                <th>Propietat</th>
+                <th>Explicació</th>
+                <th>Exemple</th>
+                <th>Resultat</th>
+            </tr>
+            <tr>
+                <td>column-count</td>
+                <td>quantitat de columnes en les que es vol distribuir el text</td>
+                <td>column-count:3</td>
+                <td id="c-count">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum id libero
+                    scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                    augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit tellus.
+                    Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                    vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris. Nunc
+                    mollis in metus ut finibus.</td>
+
+            </tr>
+            <tr>
+                <td>column-gap</td>
+                <td>distancia de separació entre les columnes</td>
+                <td>
+                    column-count:3; <br> column-gap:10%;</td>
+                <td id="c-gap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum id libero
+                    scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                    augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit tellus.
+                    Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                    vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris. Nunc
+                    mollis in metus ut finibus.</td>
+            </tr>
+            <tr>
+                <td>
+                    column-rule-width
+                </td>
+                <td>amplada de la línia que separa les columnes</td>
+                <td rowspan="3">
+                    column-count: 3; <br>
+                    column-gap: 10%; <br>
+                    column-rule-width:3px; <br>
+                    column-rule-style:dashed; <br>
+                    column-rule-color:#ff000;
+                </td>
+                <td id="c-rules" rowspan="3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                    id libero
+                    scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                    augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit tellus.
+                    Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                    vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris. Nunc
+                    mollis in metus ut finibus.</td>
+            </tr>
+            <tr>
+                <td>column-rule-style</td>
+                <td>estil de la línia que separa les columnes</td>
+            </tr>
+            <tr>
+                <td>column-rule-color</td>
+                <td>color de la línia que separa les columnes</td>
+            </tr>
+            <tr>
+                <td>column-rule</td>
+                <td>Serveix per agrupar totes les rules</td>
+                <td>column-count: 3; <br>
+                    column-gap: 10%; <br>
+                    column-rule 3px #ff000 dashed</td>
+                <td id="c-rule">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                    id libero
+                    scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                    augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit tellus.
+                    Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                    vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris. Nunc
+                    mollis in metus ut finibus.</td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        <div>
+            <p class="subtitol">Propietats Degradats</p>
+            <p class="text">Aquestes propietats permeten fer degradats de colors com un fons de la web o altres en
+                aquest casos recomanem fer servir una web per poder-loc crear com:</p>
+            <ul>
+                <li><a href="https://cssgradient.io/">CSS Gradient</a></li>
+                <li><a href="https://uigradients.com/">UI Gradients</a></li>
+                <li><a href="https://www.gradient-animator.com/">Gradient Animator</a></li>
+            </ul>
+            <p class="text"> la seva estructura es ben simple:</p>
+            <div class="flexcodi">
+                <div class="codi">
+                    <code>background: white; <span class="verde">Per posar un color de fons.</span><br>
+                    background: linear-gradient([grausdeldegradat], [color1] [posicioenpercentatge], [color2] [posicioenpercentatge]) </code>
+                </div>
+                <div class="result" id="degradat">
+                    <p class="text">Exemple de degradat:</p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <p class="subtitol">filter</p>
+            <p class="text">Aquesta propietat permet aplicar filtres a les imatges com:</p>
+            <table>
+                <tr>
+                    <th>codi</th>
+                    <th>Resultat</th>
+                </tr>
+                <tr>
+                    <td>filter:blur([pixelsdifuminat])</td>
+                    <td><img src="images/Google.png" id="f-blur"></td>
+                </tr>
+                <tr>
+                    <td>filter:grayscale([percentatgedelfiltre])</td>
+                    <td><img src="images/Google.png" id="f-gray"></td>
+
+                </tr>
+                <tr>
+                    <td>filter:invert([percentatgedelfiltre])</td>
+                    <td><img src="images/Google.png" id="f-invert"></td>
+                </tr>
+                <tr>
+                    <td>filter:sepia([percentatgedelfiltre])</td>
+                    <td><img src="images/Google.png" id="f-sepia"></td>
+                </tr>
+                <tr>
+                    <td>filter:hue-rotate([grausderotacio])</td>
+                    <td><img src="images/Google.png" id="f-hue"></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p class="subtitol">fonts no estandarts</p>
+            <p class="text">Aquesta propietat permet afegir fonts no estandarts a la web. Per fer-ho primer s'ha de
+                descarregar la font i després afegir-la al css amb la següent estructura:</p>
+            <table>
+                <tr>
+                    <th>Metode</th>
+                    <th>Explicació</th>
+                    <th>codi</th>
+                    <th>Resultat</th>
+                </tr>
+                <tr>
+                    <td>Font emmagatzemada</td>
+                    <td>En aquest cas la font es troba descarregada en el servidor i o carpeta d'arxius. Recomanació
+                        posar-ho a dalt de tot del arxiu css.</td>
+                    <td>
+                        @font-face{ <br>
+                        font-family: [nom]; <br>
+                        src: url([ruta]); <br>
+                        } <br> <br>
+                        .classe{ <br>
+                        font-family:[nomquehasposat]; <br>
+                        }
+                    </td>
+                    <td id="f-fer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>Font de google fonts</td>
+                    <td>En aquest cas podem exportar una font sense necessitat de descarregar-la</td>
+                    <td>
+                        @import url([urldefont]); <br> <br>
+                        Exemple: <br>
+                        @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+                    </td>
+                    <td id="f-google">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p class="subtitol">Transformacions</p>
+            <p class="text">Aquesta propietat permet fer transformacions.</p>
+            <table>
+                <tr>
+                    <th>Propietat</th>
+                    <th>Explicació</th>
+                    <th>Exemple</th>
+                    <th>Resultat</th>
+                </tr>
+                <tr>
+                    <td>transform:rotate([graus])</td>
+                    <td>rota en 2D l'element</td>
+                    <td>transform:rotate(45deg)</td>
+                    <td id="t-rotate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>transform:rotateX([graus])</td>
+                    <td>rota en 3D l'element en el eix de la X</td>
+                    <td>transform:rotateX(45deg)</td>
+                    <td id="t-rotateX">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+
+
+                </tr>
+                <tr>
+                    <td>transform:rotateY([graus])</td>
+                    <td>rota en 3D l'elemnet en el eix de la Y</td>
+                    <td>transform:rotateY(45deg)</td>
+                    <td id="t-rotateY">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum id
+                        libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+
+                <tr>
+                    <td>transform:scale([amplada],[altura])</td>
+                    <td>escala l'element</td>
+                    <td>transform:scale(0.5,0.5)</td>
+                    <td id="t-scale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>transform:scaleX([amplada])</td>
+                    <td>escala l'element horitzontalment</td>
+                    <td>transform:scaleX(0.5)</td>
+                    <td id="t-scaleX">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>transform:scaleY([altura])</td>
+                    <td>escala l'element verticalment</td>
+                    <td> transform:scaleY(0.5)</td>
+                    <td id="t-scaleY">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>transform:skew([grausx],[grausy])</td>
+                    <td>deforma l'element</td>
+                    <td>transform:skew(10deg,10deg)</td>
+                    <td id="t-skew">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>transform:skewX([grausx])</td>
+                    <td>deforma l'element horitzontalment</td>
+                    <td>transform:skewX(40deg)</td>
+                    <td id="t-skewX">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>transform:skewY([grausy])</td>
+                    <td>deforma l'element verticalment</td>
+                    <td>transform:skewY(5deg)</td>
+                    <td id="t-skewY">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>transform:translate([px],[px])</td>
+                    <td>desplaça l'element</td>
+                    <td>transform:translate(50px,50px)</td>
+                    <td id="t-translate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>transform:translateX([px])</td>
+                    <td>desplaça l'element horitzontalment</td>
+                    <td>transform:translateX(50px)</td>
+                    <td id="t-translateX">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>transform:translateY([px])</td>
+                    <td>desplaça l'element verticalment</td>
+                    <td>transform:translateY(50px)</td>
+                    <td id="t-translateY">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div>
+            <p class="subtitol">Transicions</p>
+            <p class="text">Aquesta propietat permet fer transicions entre els elements. En que necessitarem una
+                pseudo-classe com :hover, :active i més per poder tenir una utilitat.</p>
+            <p class="text">Aquest exemples estan fets amb la pseudo-classe <span class="verde">:hover</span></p>
+            <table>
+                <tr>
+                    <th>Propietat</th>
+                    <th>Explicació</th>
+                    <th>Exemple</th>
+                    <th>Resultat</th>
+                </tr>
+                <tr>
+                    <td>transition-property</td>
+                    <td>propietats o llista de propietats en les quals afectara l'element</td>
+                    <td rowspan="4">transition-property: background-color; <br>
+                        transition-duration: 2s; <br>
+                        transition-timing-function: linear; <br>
+                        transition-delay: 1s;</td>
+                    <td id="transition-all" rowspan="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+                <tr>
+                    <td>transition-duration</td>
+                    <td>temps que durara la transició</td>
+
+                </tr>
+                <tr>
+                    <td>transition-timing-function</td>
+                    <td>funció de temps que s'aplicara a la transició diferents tipus (linear/ease/step...)</td>
+                </tr>
+                <tr>
+                    <td>transition-delay</td>
+                    <td>temps que tardara en començar la transició</td>
+                </tr>
+                <tr>
+                    <td>transition</td>
+                    <td>agrupa totes les propietats de transició</td>
+                    <td>transition: background-color 2s linear 1s</td>
+                    <td id="transition">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ipsum
+                        id libero
+                        scelerisque elementum. Proin luctus ante ac lorem interdum, in rhoncus eros tristique. Nam ante
+                        augue, mattis eu viverra sed, pellentesque non arcu. Nam nec consectetur nulla, in suscipit
+                        tellus.
+                        Cras tristique nunc orci, a aliquam enim eleifend et. Nulla tincidunt bibendum tellus, vitae
+                        vestibulum tellus bibendum a. Nullam magna neque, vulputate a mauris sed, porta gravida mauris.
+                        Nunc
+                        mollis in metus ut finibus.</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p class="subtitol"> Animacions</p>
+            <p class="text">Aquesta propietat permet fer animacions en els elements. En que necessitarem una keyframes
+                per poder fer l'animació.</p>
+            <div>
+                <p class="text">Com fer un keyframe</p>
+                <div class="flexcodi">
+                    <div class="codi">
+                        <code> <pre>
+            @keyframes [nom]{ <br>
+                0%{ <br>
+                    transform:rotate(0deg); <br>
+                } <br>
+                100%{ <br>
+                transform:rotate(360deg); <br>
+                } <br>
+                            } <br> <br>
+                            .classe{ <br>
+                            animation:[nom] 2s linear infinite; <br>
+                            }
+                        </pre>
+                        </code>
+                    </div>
+                    <div class="result">
+                        <div id="animacio">Exemple d'animació:</div>
+                    </div>
+                </div>
+                <table>
+                    <tr>
+                        <th>Propietat</th>
+                        <th>Explicació</th>
+                        <th>Exemple</th>
+                        <th>Resultat</th>
+                    </tr>
+                    <tr>
+                        <td>animation-name</td>
+                        <td>posem el nom que hem assignat al element</td>
+                        <td>animation-name: [nom]</td>
+                        <td rowspan="4" width="300px">
+                            <div id="animation">HOLA GUAPO</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            animation-duration
+                        </td>
+                        <td> duracio animació</td>
+                        <td>animation-duration:[num]s</td>
+
+                    </tr>
+                    <tr>
+                        <td>animation-timing-function</td>
+                        <td>funció de velocitat utilitzada durant l’animació</td>
+                        <td>animation-timing-function: linear; <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>animation-iteration-count</td>
+                        <td>nombre de vegades que es repeteix l'animació</td>
+                        <td>animation-iteration-count: infinite;</td>
+
+                    </tr>
+                </table>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+    <div class="caixesimparells" id="5">
+
+        <p class="titolsapartats">Arxiu d'exemple</p>
+        <p class="text">Aquest és l'arxiu que va enviar el ruben per practicar un cop solucionat.</p>
+        <a href="M8SMX_UF5_PP1_AXS/M8SMX_UF5_PP1_AX1/wachiTV/index.html">Prem aquí (CSS i HTML)</a> <br>
+        <a href="M8SMX_UF5_AC3_AX1/alta.html">Prem aquí (Formularis)</a> <br>
+        <a href="M8SMX_UF5_AC4_AX1/M8SMX_UF5_AC4_AX1/catalogo.html">Prem aquí (CSS(2))</a>
+        
+    </div>
+    <br>
+    <br>
+
+    <div class="caixesparells" id="6">
+        <p class="titolsapartats">NETGRAFIA</p>
+        <p class="text">Aquesta guia ha estat feta gracies a:</p>
+        <ul class="text">
+            <li>RUBEN MARTINÉZ CASTILLA - <a
+                    href="https://onedrive.live.com/?authkey=%21ACxw6hhD3nzQ1y4&id=9C4496D6394A6FC5%21294873&cid=9C4496D6394A6FC5&parId=root&parQt=sharedby&o=OneUp"
+                    target="_blank">HTML</a>
+                & <a href="https://onedrive.live.com/?authkey=%21AGwUQXfGMwqxmt4&id=9C4496D6394A6FC5%21295199&cid=9C4496D6394A6FC5&parId=root&parQt=sharedby&o=OneUp"
+                    target="_blank">CSS</a>
+            </li>
+            <li>MDM <a href="https://developer.mozilla.org/es/" target="_blank">guies gratis
+                    HTML,Python,CSS...</a></li>
+            <li>W3 schools <a href="https://www.w3schools.com/" target="_blank">Escola de programació a nivell
+                    mundial</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="footer">
+        <p>Fet per: <a href="https://example.com">miquel.marques@mataro.epiaedu.cat</a> & <a
+                href="https://example.com">miquelmb11@gmail.com</a></p>
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
+                property="dct:title">Preparació Examen HTML i CSS</span> by <span property="cc:attributionName">Miquel
+                Marquès Bravo</span> is licensed under <a
+                href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank"
+                rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img
+                    style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                    src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a>
+        </p>
+
+    </footer>
+</body>
+
+</html>

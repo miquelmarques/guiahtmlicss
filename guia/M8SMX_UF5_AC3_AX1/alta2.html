@@ -1,0 +1,88 @@
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>alta - BNE</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+</head>
+
+<body>
+    <div id="logo">
+        <img class="img_s" src="images/logo.png" alt="logo" />
+        biblioteca<span class="enfasi_color">nacional</span>española
+    </div>
+    <div id="menu">
+        <a href="entrar.html">entrar</a><br />
+        <a href="alta.html">crear cuenta</a>
+    </div>
+
+    <div class="flex">
+        <div class="registrate">
+            <p class="textpreform">queremos saber más de ti...</p>
+            <form action="form/form.php" name="registra-se" method="post" autocomplete="off">
+                <p class="formulari"> fecha de nacimiento</p>
+                <input type="date" name="data" id="data" class="intext">
+                <p class="formulari">teléfono</p>
+                <input type="text" name="telf" id="telf" class="intext" placeholder="Introduce el teléfono" pattern="[0-9]{3}[.]{1}[0-9]{3}[.]{1}[0-9]{3}" title="Introduce un teléfono con este formato: 666.111.222">
+                <p class="formulari">código postal</p>
+                <input type="text" name="codipostal" class="intext" placeholder="Introduce el código postal" pattern="[0-9]{5}">
+                <p class="formulari">población</p>
+                <input type="text" name="población" class="intext">
+            </form>
+        </div>
+        <div class="registrate">
+            <p class="textpreform">... no nos dejes con la duda</p>
+            <form action="form/form.php" name="registra-se" method="post" autocomplete="off">
+                <p class="formulari">nivel estudios</p>
+                <select name="estudis" id="estudios" class="intext" min="1940-1-1">
+                    <option value="LC">licenciatura</option>
+                    <option value="DP">diplomatura</option>
+                    <option value="FP">formación professional</option>
+                    <option value="EO" selected>enseñaza obligatoria</option>
+                    <option value="X">ninguno</option>
+                </select>
+                <p class="formulari">¿cuantos años hace que acabaste los estudios?</p>
+                <input type="radio" value="menos de 5 años" checked><label class="formulari" >menos de 5 años</label>
+                <input type="radio" value="entre 5 y 15 años"><label class="formulari"> entre 5 y 15 años</label>
+                <input type="radio" value="más de 15 años"><label class="formulari">más de 15 años</label>
+                <p class="formulari">¿cuantos dias a la semana dedicas a la lectura?</p>
+                <label class="formulari">0</label><input type="range" min="0" max="7" class="range"><label class="formulari">7</label>
+                <p class="formulari">libros y autores favoritos</p>
+                <textarea class="intext"></textarea>
+                <div class="divbot">
+                    <input type="submit" value="enviar datos" class="boton">
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div class="derecha"><a href="entrar.html">omitir este paso >></a></div>
+    <div id="footer">
+        <div>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="catalogo.html">catálogo</a></li>
+                <li><a href="servicios.html">servicios</a></li>
+                <li><a href="actividades.html">actividades</a></li>
+                <li><a href="conocenos.html">conócenos</a></li>
+                <li><a href="prensa.html">prensa</a></li>
+            </ul>
+        </div>
+        <div>
+            ©2014 BNE - Pº de Recoletos 20-22<br />
+            28071 Madrid Tel.: (34) 91 580 78 00
+        </div>
+        <div>
+            <img class="img_m" src="images/salamanca.png" alt="salamanca" />
+            <img class="img_m" src="images/madrid.png" alt="madrid" /><br />
+        </div>
+    </div>
+    <div id="by">
+        Designed and developed by marcasru © 2014-2015 Graphic Resources SL. All rights reserved
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+#border-spacing{ border-spacing:10px;}
+td{ border: 1px solid black;}
+.flex-box{display: flex;
+border-spacing: 1000px;}
+.tipus2{ background-color: aqua;
+border: 1px solid blueviolet;}

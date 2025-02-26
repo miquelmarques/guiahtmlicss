@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+    font-family: tahoma;
+    background-color: #414141;
+}
+
+.body {
+    background-image: url(../images/fondo.png);
+    padding-bottom: 15%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom:1%
+}
+
+.logo {
+    width: 40%;
+    align-items: start;
+}
+
+.inici {
+    width: 60%;
+    text-align: right;
+    vertical-align: center;
+}
+
+.dalt {
+    font-size: 25pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white
+}
+
+a.dalt:hover {
+    color: yellow;
+    font-style: italic;
+}
+
+.main {
+    background-color: white;
+    opacity: 75%;
+    border-radius: 20px;
+    box-shadow: 20px 25px 30px yellow;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1px;
+}
+
+.tit {
+    color: #414141;
+    text-align: center;
+}
+
+.imatgepeli {
+    width: 0%;
+}
+
+.tamanyimg {
+    width: 200px;
+    border-radius: 15px;
+}
+
+table {
+    border-spacing: 5px 10px;
+    padding: 1% 0% 1% 5%;
+}
+
+td.td {
+    border: black 3px solid;
+    border-radius: 10px;
+    color: #999999;
+    line-height: 150%;
+    width: 50%
+}
+
+span {
+    color: black;
+    font-weight: bold;
+}
